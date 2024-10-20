@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1729462213 source:c:\users\macga\documents\repositorio\mestrado-banco-dados\1-semestre\estrutura de dados\pratica01-listacompras\lista_compra\main.c
+	<stdio.h>
+	<string.h>
+	"include/txt_file.h"
+	"include/produto.h"
+
+1729457523 source:c:\users\macga\documents\repositorio\mestrado-banco-dados\1-semestre\estrutura de dados\pratica01-listacompras\lista_compra\txt_file_impl.c
+	<stdio.h>
+	"include/txt_file.h"
+
+1729456583 c:\users\macga\documents\repositorio\mestrado-banco-dados\1-semestre\estrutura de dados\pratica01-listacompras\lista_compra\include\txt_file.h
+	<stdio.h>
+
+1729462613 source:c:\users\macga\documents\repositorio\mestrado-banco-dados\1-semestre\estrutura de dados\pratica01-listacompras\lista_compra\produto_impl.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"include/produto.h"
+
+1729462732 c:\users\macga\documents\repositorio\mestrado-banco-dados\1-semestre\estrutura de dados\pratica01-listacompras\lista_compra\include\produto.h
+
