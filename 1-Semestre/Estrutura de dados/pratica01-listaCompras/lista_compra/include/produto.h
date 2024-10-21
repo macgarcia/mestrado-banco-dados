@@ -8,8 +8,6 @@ typedef struct Produto {
     float preco_total;
 } Produto;
 
-
-//extern Produto produto;
 extern Produto new_produto(char* linha_arquivo);
 extern void adicionar_produto(Produto produto);
 

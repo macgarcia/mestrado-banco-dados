@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1729477526 source:c:\users\macga\documents\repositorio\mestrado-banco-dados\1-semestre\estrutura de dados\calculo_notas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"include/txt_file.h"
+	"include/aluno.h"
+
+1729464523 source:c:\users\macga\documents\repositorio\mestrado-banco-dados\1-semestre\estrutura de dados\calculo_notas\txt_file_impl.c
+	<stdio.h>
+	"include/txt_file.h"
+
+1729464485 c:\users\macga\documents\repositorio\mestrado-banco-dados\1-semestre\estrutura de dados\calculo_notas\include\txt_file.h
+	<stdio.h>
+
+1729477552 source:c:\users\macga\documents\repositorio\mestrado-banco-dados\1-semestre\estrutura de dados\calculo_notas\aluno_impl.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"include/aluno.h"
+
+1729477276 c:\users\macga\documents\repositorio\mestrado-banco-dados\1-semestre\estrutura de dados\calculo_notas\include\aluno.h
+	<stdio.h>
+
