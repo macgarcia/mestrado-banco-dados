@@ -46,5 +46,5 @@ void maior_nota(Aluno* inicio) {
         inicio = inicio->proximo;
     }
     printf("Aluno: %s\n", nome);
-    printf("Maior nota: %.2f", maior);
+    printf("Maior nota: %.2f\n\n", maior);
 }

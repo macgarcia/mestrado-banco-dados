@@ -28,6 +28,15 @@ Aluno* carregar_dados(FILE* file) {
     return inicio;
 }
 
+void liberar_memoria(Aluno* inicio) {
+    struct Aluno* tmp;
+    if (inicio != NULL) {
+        tmp = inicio;
+        inicio = inicio->proximo;
+        free(tmp);
+    }
+}
+
 int main() {
 
     FILE* arquivo_nota = ler_arquivo("notas.txt");
@@ -36,8 +45,7 @@ int main() {
     //imprimir_lista(inicio_lista);
     imprimir_media(inicio_lista);
     maior_nota(inicio_lista);
-
-    printf("\n\n\nDeu certo");
+    liberar_memoria(inicio_lista);
 
     return 0;
 
