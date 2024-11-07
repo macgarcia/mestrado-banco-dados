@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1731002845 source:c:\users\macga\documents\repositorio\mestrado-banco-dados\1-semestre\paa\exercicio01\paa-l1-e2-palindromo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+

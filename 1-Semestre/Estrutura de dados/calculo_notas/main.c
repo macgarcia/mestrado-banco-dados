@@ -16,7 +16,7 @@ Aluno* carregar_dados(FILE* file) {
 
     while(fgets(linha, 200, file) != NULL) {
         sscanf(linha, modelo, nome, &nota);
-        struct Aluno* novo_aluno = criar_aluno(nome, nota);
+        Aluno* novo_aluno = criar_aluno(nome, nota);
         if (inicio == NULL) {
             inicio = novo_aluno;
         } else {
@@ -29,7 +29,7 @@ Aluno* carregar_dados(FILE* file) {
 }
 
 void liberar_memoria(Aluno* inicio) {
-    struct Aluno* tmp;
+    Aluno* tmp;
     if (inicio != NULL) {
         tmp = inicio;
         inicio = inicio->proximo;
@@ -38,7 +38,6 @@ void liberar_memoria(Aluno* inicio) {
 }
 
 int main() {
-
     FILE* arquivo_nota = ler_arquivo("notas.txt");
     Aluno* inicio_lista = carregar_dados(arquivo_nota);
     fechar_arquivo(arquivo_nota);
@@ -46,7 +45,5 @@ int main() {
     imprimir_media(inicio_lista);
     maior_nota(inicio_lista);
     liberar_memoria(inicio_lista);
-
     return 0;
-
 }
