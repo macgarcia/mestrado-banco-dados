@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1731188143 source:c:\users\macga\documents\repositorio\mestrado-banco-dados\1-semestre\estrutura de dados\buscar_e_ordenacao\main.c
+1731188186 source:c:\users\macga\documents\repositorio\mestrado-banco-dados\1-semestre\estrutura de dados\buscar_e_ordenacao\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
