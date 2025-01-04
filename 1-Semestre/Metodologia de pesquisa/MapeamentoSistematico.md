@@ -9,7 +9,7 @@ body {
 
 <b>Nome:</b> Marcos Antonio Carlos Garcia - 840121
 
-<b>Orientadora:</b> Marilde
+<b>Orientadora:</b> Profa. Dra. Marilde Terezinha Prado Santos
 
 <b>Mestrado em ciência da computação</b>
 
@@ -47,7 +47,7 @@ Questão 03: Quais são os desafios para essa representação?
 #### Critérios de inclusão
 Artigos publicados em conferências ou periódicos com Qualis-CC CAPES.
 
-Publicações entre 2015 e 2025.
+Publicações entre 1970 e 2025.
 
 Estudos com foco em bancos de dados relacionais.
 
@@ -63,15 +63,15 @@ Publicações fora do escopo, como bancos de dados NoSQL.
 ## 2.1 Lista de estudos extraidos
 
 [Artigo 01] - Titulo: <i>A relational approach to database design</i>
-- Fonte: ACM Digital Library
+- Fonte: ACM Digital Library - Qualis A3
 - Link: https://doi-org.ez31.periodicos.capes.gov.br/10.1145/323275.323315
 
 [Artigo 02] - Titulo: <i>Document processing in a relational database system</i>
-- Fonte: ACM Digital Library
+- Fonte: ACM Digital Library - Qualis A3
 - Link: https://doi-org.ez31.periodicos.capes.gov.br/10.1145/357431.35743
 
 [Artigo 03] - Titulo: <i>Extending the Scope of Relational Languages</i>
-- Fonte: IEEE Xplore
+- Fonte: IEEE Xplore - Qualis A3
 - Link: https://ieeexplore-ieee-org.ez31.periodicos.capes.gov.br/document/1695468
 - Doi: 10.1109/MS.1986.232429
 
@@ -80,11 +80,11 @@ Publicações fora do escopo, como bancos de dados NoSQL.
 - Link: https://doi.org/10.1016/0306-4573(92)90027-W
 
 [Artigo 05] - Titulo: <i>Reverse engineering of relational database applications</i>
-- Fonte: Springer 
+- Fonte: Springer - Qualis B4
 - Link: https://link-springer-com.ez31.periodicos.capes.gov.br/chapter/10.1007/BFb0020523
 
 [Artigo 06] - Titulo: <i>Schema Analysis for Database Restructuring</i>
-- Fonte:  ACM Digital Library
+- Fonte:  ACM Digital Library - Qualis A3
 - Link: https://doi-org.ez31.periodicos.capes.gov.br/10.1145/320141.320147
 
 [Artigo 07] - Titulo: <i>Text storage and retrieval in the ORACLE relational database management system: design study and intended applications</i>
@@ -102,8 +102,8 @@ Publicações fora do escopo, como bancos de dados NoSQL.
 [Artigo 03] - <b>Incluído:</b> Extending the Scope of Relational Languages
  - Critério: Examina extensões ao modelo relacional, incluindo relações aninhadas e paradigmas orientados a objetos, úteis para acomodar dados semiestruturados
 
-[Artigo 04] - <b>Incluído:</b> OHQL: A Hypertext Approach for Manipulating Object-Oriented Databases
- - Critério: Propõe uma interface gráfica para manipulação de objetos complexos, relevante para explorar representações e consultas de dados semiestruturados
+[Artigo 04] - <b>Excluído:</b> OHQL: A Hypertext Approach for Manipulating Object-Oriented Databases
+ - Critério: Não encontrado nota Qualis.
 
 [Artigo 05] - <b>Incluído:</b> Reverse Engineering of Relational Database Applications
   - Critério de inclusão: Propõe técnicas de engenharia reversa para derivar visões orientadas a objetos de bancos relacionais, útil para adaptação a dados semiestruturados
@@ -111,8 +111,8 @@ Publicações fora do escopo, como bancos de dados NoSQL.
 [Artigo 06] - <b>Incluído:</b> Schema Analysis for Database Restructuring
  - Critério: Apresenta metodologias de análise e reestruturação de esquemas, oferecendo base para adaptar modelos relacionais a dados semiestruturados
 
-[Artigo 07] - <b>Incluído:</b> Text Storage and Retrieval in the ORACLE Relational Database Management System: Design Study and Intended Applications
- - Critério: Descreve a adaptação do sistema de banco de dados relacional Oracle para armazenamento e recuperação de textos, aplicável a dados semiestruturados como documentos e textos livres
+[Artigo 07] - <b>Excluído:</b> Text Storage and Retrieval in the ORACLE Relational Database Management System: Design Study and Intended Applications
+ - Critério: Não encontrado nota Qualis.
 
 ## 2.3 Leitura completa dos textos
 
@@ -139,11 +139,6 @@ Incorporação de Paradigmas Alternativos: O autor sugere que a extensão do par
 
 Representação de Objetos Complexos: A introdução de tipos de dados complexos é discutida como uma maneira de lidar com a ambiguidade e a complexidade dos dados. Isso é relevante para dados semi-estruturados, onde a estrutura pode não ser totalmente definida.
 
-[Artigo 04] - <b>Incluído: </b> OHQL: A Hypertext Approach for Manipulating Object-Oriented Databases
-  - Critério:
-
-Sistemas de Banco de Dados Orientados a Objetos (OODBMS): O artigo discute como os OODBMS são projetados para lidar com objetos complexos e multimídia, o que é essencial para a representação de dados semi-estruturados. Esses sistemas preservam o conhecimento adquirido dos bancos de dados relacionais, mas oferecem uma estrutura mais flexível para manipulação de dados.
-
 [Artigo 05] - <b> Incluído: </b> Reverse Engineering of Relational Database Applications
  - Critério:
 
@@ -156,12 +151,6 @@ Definição de Esquemas de Banco de Dados: O artigo define um esquema de banco d
 
 Classificação de Estruturas de Dados: O autor propõe uma classificação das estruturas lógicas de banco de dados, que pode ser útil para categorizar dados semiestruturados. A distinção entre relações hierárquicas e não hierárquicas é especialmente relevante, pois muitos dados semiestruturados não se encaixam perfeitamente em modelos rígidos.
 
-[Artigo 07] - <b>Incluído: </b> Text Storage and Retrieval in the ORACLE Relational Database Management System: Design Study and Intended Applications
-  - Critério:
-
-Integração de Texto e Dados Estruturados: O sistema ORACLE foi projetado para integrar dados textuais com dados estruturados, permitindo que textos sejam armazenados e recuperados de maneira eficiente. Isso é especialmente útil em aplicações como pesquisas de mercado e catálogos de produtos, onde a combinação de dados numéricos e textuais é necessária.
-
-
 ## 3. Referencias
 
  - PRATT, Philip J. A relational approach to database design. SIGCSE Bulletin, v. 17, n. 1, p. 184–201, mar. 1985. Disponível em: https://doi-org.ez31.periodicos.capes.gov.br/10.1145/323275.323315. Acesso em: 4 jan. 2025.
@@ -170,10 +159,6 @@ Integração de Texto e Dados Estruturados: O sistema ORACLE foi projetado para 
 
  - KORTH, H. F. Extending the scope of relational languages. IEEE Software, v. 3, n. 1, p. 19–28, jan. 1986. doi: 10.1109/MS.1986.232429. Acesso em: 4 jan. 2025.
 
- - ANDONOFF, Eric; CANILLAC, Michel; MENDIBOURE, Catherine; ZURFLUH, Gilles. OHQL: a hypertext approach for manipulating object-oriented databases. Information Processing & Management, v. 28, n. 5, p. 567–579, 1992. ISSN 0306-4573. Disponível em: https://doi.org/10.1016/0306-4573(92)90027-W. Acesso em: 4 jan. 2025.
-
  - VERMEER, M. W. W.; APERS, P. M. G. Reverse engineering of relational database applications. In: PAPAZOGLOU, M. P. (Ed.). OOER '95: Object-Oriented and Entity-Relationship Modeling. ER 1995. Lecture Notes in Computer Science, v. 1021. Berlin: Springer, 1995. p. 1–18. Disponível em: https://doi-org.ez31.periodicos.capes.gov.br/10.1007/BFb0020523. Acesso em: 4 jan. 2025.
 
  - NAVATHE, Shamkant B. Schema analysis for database restructuring. ACM Transactions on Database Systems, v. 5, n. 2, p. 157–184, jun. 1980. Disponível em: https://doi-org.ez31.periodicos.capes.gov.br/10.1145/320141.320147. Acesso em: 4 jan. 2025.
-
- - ASHFORD, J. H. Text storage and retrieval in the ORACLE relational database management system: design study and intended applications. Program: electronic library and information systems, v. 21, n. 2, p. 108–123, 1987. Disponível em: https://doi-org.ez31.periodicos.capes.gov.br/10.1108/eb046963. Acesso em: 4 jan. 2025.
