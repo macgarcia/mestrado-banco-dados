@@ -12,7 +12,7 @@ body {
 <b>Orientadora:</b> Profa. Dra. Marilde Terezinha Prado Santos
 
 <b>Mestrado em ciência da computação</b>
-
+**
 #
 
 ## 1. Dados Bibliográficos do Estudo

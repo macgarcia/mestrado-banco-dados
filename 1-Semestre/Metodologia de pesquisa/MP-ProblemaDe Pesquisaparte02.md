@@ -1,7 +1,7 @@
 <style>
 body {
     font-family: "Times New Roman", Times, serif;
-    font-size: 14px;
+    font-size: 16px;
     text-align: justify;
 }
 </style>
