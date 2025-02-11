@@ -1,3 +1,4 @@
+
 <style>
 body {
     font-family: "Times New Roman", Times, serif;
@@ -22,4 +23,7 @@ Para a construção de uma boa base de dados para qualquer aplicação necessita
 
 ### INTRODUÇÃO
 
-Modelagem de dados é um grande desafio para qualquer pessoa que se propõe a realizar essa tarefa, necessitando de conhecimento geral e especifico do problema a se solucionar, podendo assim fazer a implementação de uma base de dados com proposito especifico. Profissionais deste seguimento que trabalham para gerar bases de dados a fim de solucionar problemas, tarefas ou qualquer tipo de necessidade do cotidiano se deparam com modelagem de dados. Normalmente o inicio de todos que irão trabalhar propondo alguma solução que tem uma base de dados, recorre ao MER. Na modelagem de dados é identificado contextos e assim pode-se separar os dados para que a distribuição fique coesa e granulada de acordo com aspecto de cada dado. Cada dado faz parte de um contexto que integra um séria de outras estruturas para que os dados sejam distribuidos gerando as tabelas e suas relações.
+Modelagem de dados é um grande desafio para qualquer pessoa que se propõe a realizar essa tarefa, necessitando de conhecimento do problema a se solucionar, podendo assim fazer a implementação de uma base de dados com proposito específico. Profissionais deste seguimento que trabalham para gerar bases de dados a fim de solucionar problemas, tarefas ou qualquer tipo de necessidade do cotidiano se deparam com modelagem de dados. Normalmente o inicio de todos que trabalharão propondo alguma solução que tem uma base de dados, recorre ao MER. Na modelagem de dados é identificado contextos podendo separar os dados para que a distribuição fique granulada e coesa de acordo com aspecto de cada dado. Cada dado faz parte de um contexto que integra outros contextos gerando as tabelas e suas relações.
+
+Representar dados semiestruturados se tornam um desafio levando em consideração as avaliações de [PRATT 1985] que em seu artigo "A relational approach to database design" comenta a importancia da estruturação dos dados de maneira correta seguindo as formas normais. O autor aponta que seguindo as definições teremos uma qualidade melhor na distribuição dos dados.
+Quando construimos os modelos de dados indiretamente utilizamos as definições de formas normais, ja pensando no banco de dados real. Nossa proposta vem para a tentar contemplar a abstração de um dado que não é comum.
