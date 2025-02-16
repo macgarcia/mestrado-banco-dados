@@ -2,7 +2,7 @@
 #define HASH_TABLE_H_INCLUDED
 
 #include "aluno.h"
-#define MAX_LISTA 100
+#define MAX_LISTA 10000
 
 typedef struct {
     Aluno* lista[MAX_LISTA];

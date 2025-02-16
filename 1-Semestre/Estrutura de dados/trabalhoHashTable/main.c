@@ -6,6 +6,22 @@
 
 #define MAX_ALUNO 2287
 
+void limpesa_de_memoria(Hash* hash, FILE* arq) {
+
+    for (int i = 0; i < MAX_LISTA; i++) {
+        Aluno* aluno = hash->lista[i];
+        while(aluno) {
+            Aluno* tmp = aluno;
+            aluno = aluno->prox;
+            limpar_aluno(tmp);
+        }
+    }
+
+    free(hash->lista);
+
+    fechar_arquivo(arq);
+}
+
 int main() {
 
     Aluno* alunos[MAX_ALUNO];
@@ -23,8 +39,12 @@ int main() {
     }
 
     int acumulador = 0;
+    int ociosa = 0;
     for (int i = 0; i < MAX_LISTA; i++) {
         Aluno* aluno = hash->lista[i];
+        if (aluno == NULL) {
+            ociosa++;
+        }
         int count = 0;
         while(aluno) {
             count++;
@@ -38,8 +58,9 @@ int main() {
     printf("-------------------------------------------------------------------\n");
     printf("Colisoes: %d\n", get_colisoes());
     printf("-------------------------------------------------------------------\n");
+    printf("Posicoes ociosas na tabela hash: %d\n", ociosa);
+    printf("-------------------------------------------------------------------\n");
 
-
-    fechar_arquivo(arq);
+    limpesa_de_memoria(hash, arq);
 
 }
